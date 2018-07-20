@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="inner">
+            <table>
+                <tr>
+                    <td colspan="4"><input type="text" name="screen" size="23"></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onClick="clearCal()">AC</button></td>
+                    <td><button type="button" onClick="cal('(')">(</button></td>
+                    <td><button type="button" onClick="cal(')')">)</button></td>
+                    <td><button type="button" class="yellow" onClick="cal('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onClick="cal('7')">7</button></td>
+                    <td><button type="button" onClick="cal('8')">8</button></td>
+                    <td><button type="button" onClick="cal('9')">9</button></td>
+                    <td><button type="button" class="yellow" onClick="cal('*')">X</button></td>
+
+                </tr>
+                <tr>
+                    <td><button type="button" onClick="cal('4')">4</button></td>
+                    <td><button type="button" onClick="cal('5')">5</button></td>
+                    <td><button type="button" onClick="cal('6')">6</button></td>
+                    <td><button type="button" class="yellow" onClick="cal('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onClick="cal('1')">1</button></td>
+                    <td><button type="button" onClick="cal('2')">2</button></td>
+                    <td><button type="button" onClick="cal('3')">3</button></td>
+                    <td><button type="button" class="yellow" onClick="cal('+')">+</button></td>
+
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="button" class="long" onClick="cal('0')">0</button></td>
+                    <td><button type="button" onClick="cal('.')">.</button></td>
+                    <td><button type="button" class="yellow" onclick="resultCal()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>

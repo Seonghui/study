@@ -1,0 +1,60 @@
+html, body, #wrapper {
+    width: 100%;
+    height: 100%;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+table, tr, td {
+    border: 1px solid #f0f1f0;
+}
+td {
+    padding: 0;
+}
+input, button:focus {
+    outline: none;
+}
+.long {
+    width: 160px;
+}
+.yellow {
+    background-color: #ff9200;
+    color: #fff;
+}
+.yellow:active {
+    background-color: #ffae4f;
+}
+button {
+    background-color: #fefffe;
+    border: none;
+    color: #4c4d4c;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:active {
+    background-color: #f0f1f0;
+}
+input[name=screen] {
+    width: 309px;
+    padding: 8px;
+    font-size: 33px;
+    border: 0;
+    font-weight: 200;
+    background-color: #f0f1f0;
+    color: #4c4d4c;
+}
+#wrapper {
+    position: relative;
+}
+#inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -163px;
+    margin-top: -131px;
+}

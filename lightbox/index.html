@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lightbox</title>
+</head>
+
+<body>
+    <!-- 썸네일 -->
+    <div id="thumbnail">
+        <img class="thumb" src="images/img1.jpg" alt="image1">
+        <img class="thumb" src="images/img2.jpg" alt="image2">
+        <img class="thumb" src="images/img3.jpg" alt="image3">
+    </div>
+    <!-- 라이트 박스 배경 -->
+    <div id="backdrop"></div>
+
+    <div id="lightbox">
+        <div id="image-1" class="box">
+            <div class="btn close">X</div>
+            <img class="thumb" src="images/img1.jpg" alt="image1">
+            <div class="description">
+                <h1>갈대 사진</h1>
+                <p>국무총리는 국무위원의 해임을 대통령에게 건의할 수 있다. 법률이 헌법에 위반되는 여부가 재판의 전제가 된 경우에는 법원은 헌법재판소에 제청하여 그 심판에 의하여 재판한다.</p>
+            </div>
+
+        </div>
+        <div id="image-2" class="box">
+            <div class="btn close">X</div>
+            <img class="thumb" src="images/img2.jpg" alt="image2">
+            <div class="description">
+                <h1>나무와 별 사진</h1>
+                <p>감사원은 원장을 포함한 5인 이상 11인 이하의 감사위원으로 구성한다. 대통령은 헌법과 법률이 정하는 바에 의하여 국군을 통수한다. 위원은 탄핵 또는 금고 이상의 형의 선고에 의하지 아니하고는
+                    파면되지 아니한다.
+                </p>
+            </div>
+
+        </div>
+        <div id="image-3" class="box">
+            <div class="btn close">X</div>
+            <img class="thumb" src="images/img3.jpg" alt="image3">
+            <div class="description">
+                <h1>바다 사진</h1>
+                <p>국민의 자유와 권리는 헌법에 열거되지 아니한 이유로 경시되지 아니한다. 대법원장과 대법관이 아닌 법관은 대법관회의의 동의를 얻어 대법원장이 임명한다.</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
